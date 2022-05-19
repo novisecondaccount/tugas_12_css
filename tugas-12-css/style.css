@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to top right, #2bd0e3, white);
+}
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 0;
+}
+ul {
+    padding: 0;
+
+}
+li {
+    display: inline;
+
+}
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.slider-img{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.image {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+
+}
+.p-text {
+    column-count: 4;
+    column-fill: auto;
+    column-rule: 2px solid black;
+    text-align: justify;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
